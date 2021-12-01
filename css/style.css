@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("./../images/hero-image.jpg");
+  background-size: cover;
+  color: white;
+}
+h1 {
+  font-weight: 100;
+  font-size: 4em;
+  border: 1px solid white;
+  width: 500px;
+  padding: 100px;
+}
+.fl-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fl-centerh {
+  justify-content: center;
+}
+
+.fl-centerv {
+  align-items: center;
+}
+
+.intro {
+  padding: 200px;
+  text-align: center;
+}
+.intro h2 {
+  margin-bottom: 40px;
+}
+.works {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.fl-justifyh {
+  justify-content: space-between;
+}
+.works img,
+.works video {
+  width: 100%;
+}
+.works figure {
+  width: 45%;
+  margin-bottom: 30px;
+}
+.customers {
+  padding: 100px;
+  border: 1px solid grey;
+  text-align: center;
+}
+
+.customers img {
+  width: 15%;
+}
+
+.contact {
+  padding: 150px;
+  background-image: url("./../images/mountains.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
